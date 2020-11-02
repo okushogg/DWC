@@ -68,12 +68,16 @@ footer {
   background-color: #aaa;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 768px) {
   header {
     width: 100%;
   }
 
   footer {
+    width: 100%;
+  }
+
+  body {
     width: 100%;
   }
 
@@ -85,7 +89,7 @@ footer {
   .box {
     align-items: center;
     width: 90%;
-    margin-top: 20px ;
+    margin-top: 20px;
     margin-left: 5%;
     margin-right: 5%;
   }
